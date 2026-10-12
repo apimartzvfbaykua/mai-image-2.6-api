@@ -1,0 +1,19 @@
+{
+  "id": "mai-image-2.6",
+  "ext": "mai-image-2.6-flash",
+  "source": "https://apimart.ai/en/pricing",
+  "extracted_at": "2026-10-12T09:50:53Z",
+  "prices": {},
+  "rates": {
+    "text_input": 1.4,
+    "cached_text_input": 0,
+    "image_input": 2,
+    "cached_image_input": 0,
+    "text_output": 0,
+    "image_output": 15.2
+  },
+  "unit": "usd_per_million_tokens",
+  "aspect_ratios": "`auto` plus integer ratios from `1:4` to `4:1`",
+  "result_link_ttl": "72 hours",
+  "reference_note": "Up to **five** references. For image editing the model chooses the output dimensions from the references — `size`, `resolution`, `width` and `height` do not control the result."
+}
