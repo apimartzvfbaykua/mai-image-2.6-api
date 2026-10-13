@@ -40,12 +40,12 @@ Result links expire **72 hours** after completion.
 ## Pricing
 
 <!-- pricing:model:start -->
-| Output (token-billed) | List price | Effective price |
+| Output | List price | Effective price |
 | --- | --- | --- |
-| 1K | image-output estimate only | — |
-| 2K | image-output estimate only | — |
+| default | $0.0375 | $0.03 |
+| 4K | $0.05 | $0.04 |
 
-Token rates (effective): `text_input` $4.00, `image_input` $6.40, `image_output` $30.40 per million tokens. Flash is cheaper: $1.40 / $2.00 / $15.20.
+The token-billed official route bills per million tokens instead: `text_input` $1.60, `cached_text_input` free, `image_input` $1.60, `cached_image_input` free, `text_output` $9.60, `image_output` $96.00.
 <!-- pricing:model:end -->
 
 Failed tasks are fully refunded. A 3072×768 request is valid (multiples of 32, each side ≥ 768 px). Prices are a snapshot; the [Live pricing](https://go.apimart.ai/k-300b9f) page and [`data/model.json`](data/model.json) are refreshed by CI, and a completed task reports the exact amount in its `cost` field.
